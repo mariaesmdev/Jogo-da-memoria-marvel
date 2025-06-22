@@ -34,11 +34,4 @@ Este é um jogo da memória simples e divertido com o tema dos Vingadores, desen
 
 -----
 
-### 💻 Estrutura do Projeto
 
-  * `index.html`: O arquivo principal que define a estrutura da página do jogo.
-  * `style.css`: Contém as regras de estilo para a aparência e layout do jogo.
-  * `script.js`: Onde reside a lógica JavaScript, controlando o fluxo do jogo.
-  * `images/`: Pasta que armazena todas as imagens das cartas dos Vingadores.
-
------
