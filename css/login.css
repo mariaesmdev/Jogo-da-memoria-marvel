@@ -49,8 +49,8 @@ padding: 15px;
 }
 
 .login-button:disabled {
-    background-color: #b4adad;
-    color: #5c5757;
+    background-color: #eee;
+    color: #aaa;
     cursor: auto;
 }
 
