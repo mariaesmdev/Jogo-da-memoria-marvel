@@ -20,7 +20,7 @@ Este é um jogo da memória simples e divertido com o tema dos Vingadores, desen
 
 ### ✨ Funcionalidades
 
-  * **Tema Vingadores:** Cartas personalizadas com seus heróis preferidos para uma experiência imersiva.
+  * **Tema Vingadores:** Cartas personalizadas heróis para uma experiência imersiva.
   * **Design Responsivo:** Jogue em diversos dispositivos, como desktops, tablets e celulares, adaptando-se a qualquer tela.
   * **Simples e Intuitivo:** Uma interface fácil de entender e jogar, perfeita para todas as idades.
 
