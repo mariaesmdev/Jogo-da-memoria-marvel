@@ -1,6 +1,8 @@
 const grid = document.querySelector('.grid');
 let firstCard = '';
 let secondCard = '';
+const spanPlayer = document.querySelector('.player');
+const timer = document.querySelector('.timer');
 
 const characters = [
     'capitã',
@@ -95,5 +97,28 @@ function loadGame (){
     });
 }
 
-loadGame();
+let seconds = 0;
+function startTime() {
+    
+    timer.innerHTML = seconds; 
+
+    setInterval(() => {
+        seconds++; 
+        timer.innerHTML = seconds; 
+
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+        timer.innerHTML = `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+
+    }, 1000); // 1000 milissegundos = 1 segundo
+}
+
+window.onload = () => {
+    const playerName = localStorage.getItem('player');
+    spanPlayer.innerHTML = playerName;
+    loadGame();
+    startTime();
+}
+
+
 
