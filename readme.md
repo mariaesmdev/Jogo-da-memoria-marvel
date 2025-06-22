@@ -1,5 +1,5 @@
 ## Jogo da Memória dos Vingadores 🎮
-Este é um jogo da memória simples e divertido com o tema dos Vingadores, desenvolvido utilizando HTML, CSS e JavaScript puro. Desafie sua concentração e memória enquanto encontra pares dos seus heróis favoritos!
+Este é um jogo da memória simples e divertido com o tema dos Vingadores, desenvolvido utilizando HTML, CSS e JavaScript puro. 
 
 -----
 
@@ -21,7 +21,6 @@ Este é um jogo da memória simples e divertido com o tema dos Vingadores, desen
 ### ✨ Funcionalidades
 
   * **Tema Vingadores:** Cartas personalizadas com seus heróis preferidos para uma experiência imersiva.
-  * **Contagem de Movimentos:** Acompanhe quantos movimentos você faz para encontrar todos os pares e desafie-se a melhorar.
   * **Design Responsivo:** Jogue em diversos dispositivos, como desktops, tablets e celulares, adaptando-se a qualquer tela.
   * **Simples e Intuitivo:** Uma interface fácil de entender e jogar, perfeita para todas as idades.
 
