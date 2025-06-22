@@ -16,6 +16,7 @@ const characters = [
     'viuva',
     'arqueir0',
 ];
+let gameTimerInterval; 
 
 function createElement (tag, className){
     const element = document.createElement(tag);
@@ -59,7 +60,8 @@ function checkEndGame(){
     const disabledCards = document.querySelectorAll('.disabled-card');
 
     if (disabledCards.length === 20){
-        alert ('Você conseguiu! Ganhou o jogo');
+        clearInterval(gameTimerInterval);
+        alert (`Você conseguiu! Ganhou o jogo em ${timer.innerHTML}`);
     }
 }
 
@@ -71,6 +73,7 @@ function checkMatch(){
          firstCard.firstChild.classList.add('disabled-card');
          secondCard.firstChild.classList.add('disabled-card');
          resetBoard();
+         clearInterval(this.loop);
          checkEndGame();
         
     } else {
@@ -98,19 +101,16 @@ function loadGame (){
 }
 
 let seconds = 0;
+
 function startTime() {
+    timer.innerHTML = seconds;
     
-    timer.innerHTML = seconds; 
-
-    setInterval(() => {
-        seconds++; 
-        timer.innerHTML = seconds; 
-
+    gameTimerInterval = setInterval(() => { 
+        seconds++;
         const minutes = Math.floor(seconds / 60);
         const remainingSeconds = seconds % 60;
         timer.innerHTML = `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
-
-    }, 1000); // 1000 milissegundos = 1 segundo
+    }, 1000);
 }
 
 window.onload = () => {
@@ -119,6 +119,7 @@ window.onload = () => {
     loadGame();
     startTime();
 }
+
 
 
 
