@@ -34,4 +34,10 @@ Este é um jogo da memória simples e divertido com o tema dos Vingadores, desen
 
 -----
 
+### 📺 Créditos
 
+Este projeto foi desenvolvido com base no tutorial do canal Manual do Dev.
+
+📹 Assista ao vídeo original aqui:
+https://youtu.be/NV88N1r2Qkg?si=OmO3aOtw-AEHkgkI 
+-----
